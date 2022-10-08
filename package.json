@@ -1,0 +1,16 @@
+{
+    "name": "typescriptbudgetapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "serve": "lite-server",
+      "watch": "tsc -w "
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "lite-server": "^2.6.1",
+      "typescript": "^4.1.3"
+    }
+  }

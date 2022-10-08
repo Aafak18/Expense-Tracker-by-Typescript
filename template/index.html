@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./fonts/Courgette-Regular/style.css" />
+  <link rel="stylesheet" href="./fonts/Poppins/style.css" />
+  <link rel="stylesheet" href="./fonts/Ranchers/style.css" />
+  <link rel="stylesheet" href="./fonts/Roboto/style.css" />
+  <link rel="stylesheet" href="./fonts/Lobster/style.css" />
+  <link rel="stylesheet" href="./scss/index.css" />
+  <title>expense tracker app with typescript</title>
+</head>
+
+<body>
+  <header class="head">
+    <div class="text">
+        <h1>expense<span> tracker</span></h1>
+    </div>
+  </header>
+  <div class="main">
+    <div class="input">
+      <div class="income">
+        <form class="IF">
+          <input type="number" class="BA" placeholder="please input an income" />
+          <input type="text" class="BD" placeholder="please input a description" />
+          <button type="submit" class="BS">Add</button>
+        </form>
+      </div>
+      <div class="expense">
+        <form class="EF">
+          <input type="number" class="EA" placeholder="please input an expense" />
+          <input type="text" class="ED" placeholder="please input a description" />
+          <button type="submit" class="ES">Add</button>
+        </form>
+      </div>
+    </div>
+    <div class="every">
+      <div class="outl">
+        <div class="balance">
+          <h1>Your balance : $<span class="mbal">0</span></h1>
+        </div>
+        <div class="expinc">
+          <div class="inc">
+            <h1>income: $<span class="minc">0</span></h1>
+          </div>
+          <div class="exp">
+            <h1>expense: $<span class="mexp">0</span></h1>
+          </div>
+        </div>
+      </div>
+      <div class="details">
+        <div class="detincome"> </div>
+        <div class="detexpense"> </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./dist/index.js"></script>
+</body>
+
+</html>
